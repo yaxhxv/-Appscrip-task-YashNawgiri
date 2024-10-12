@@ -1,18 +1,15 @@
 {
-  "homepage": "https://Swarup4545.github.io/Appscrip-task-swarup",
-  "name": "my-project",
+  "name": "appscrip-task-yashnawgiri",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
-  "dependencies": {
+ "dependencies": {
     "axios": "^1.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -33,3 +30,5 @@
     "vite": "^5.2.0"
   }
 }
+
+
